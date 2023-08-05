@@ -1,7 +1,7 @@
 
 
 .cont{
-    margin: 50px 20px 20px 20px;
+    margin: 50px 20px 50px 20px;
     padding: 10px;
     border-radius: 10px;
     flex-direction: column;
@@ -30,7 +30,7 @@
     width: 80%;
     color: white;
     text-decoration: underline;
-    
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .contenedor-tel{
