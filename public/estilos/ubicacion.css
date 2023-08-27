@@ -1,0 +1,46 @@
+.contenedor-ubicacion{
+    width: 70%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(46, 43, 43);
+    border-radius: 5px;
+}
+
+.titulo-ubicacion{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    margin: 5px ;
+}
+.mapa{
+    margin: 20px;
+    box-shadow: 1px 1px 10px white;
+    border-radius: 5px;
+    border: 3px solid rgb(46, 43, 43);
+}
+
+.parrafo{
+    color: black;
+    text-align: center ;
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 817px) {
+
+    .contenedor-ubicacion{
+        width: 90%;
+        height: auto;
+    }
+    .mapa{
+        width: 90%;
+    }
+    .parrafo{
+        font-size: 4vw;
+    }
+}

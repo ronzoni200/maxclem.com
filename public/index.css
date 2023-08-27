@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(255, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.carousel-caption{   
+    border-radius: 25px;    
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgba(46, 42, 42, 0.791);
+}
+
+#carouselExampleCaptions{
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.carousel-inner{
+    border: 5px solid rgb(46, 42, 42);
+    border-radius: 6px;
+}
+
+.d-block{
+    border-radius: 5px;
+}
+
+#sub-titulo{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(58, 52, 52);
+    color: white;    
+    padding: 20px;    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}

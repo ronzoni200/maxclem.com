@@ -1,0 +1,164 @@
+body{
+    background-color:red;
+}
+.cont{
+    margin: 50px 20px 50px 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid rgb(46, 43, 43);
+    flex-direction: column;
+    display: flex;
+    width: 45%;
+    height: 450px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;    
+}
+
+.contenedor-contactos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.titulos{
+    display: flex;   
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    color: black;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contenedor-tel{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ico{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 150px;   
+    border: 20px;
+    padding: 10px;
+}
+.conenedor-contacto{
+    min-height: 400px;
+    margin: 20px;
+    padding: 20px;
+    width: 80%;    
+    font-size: 20px;    
+    display: flex;
+   
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.contacto{
+    display:block;
+    width: 100%;    
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cont-but{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.numero{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    border: 1px solid black;
+    margin: 10px;    
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.correo{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    border: 1px solid black;
+    margin: 10px;    
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.link{
+    border-radius: 10px;
+    margin: 10px;
+    background-color:white;
+    color: black;
+    text-align: center;
+}
+
+.cont:hover{
+    box-shadow: 5px 2px 5px white;
+    background-color: rgba(255, 255, 255, 0.88);
+}
+
+.link:hover{
+    box-shadow: 2px 2px 5px #25D366;
+    font-weight: bold;
+    background-color: #25D366;
+}
+.nav-item{
+    border-radius: 3px;
+    margin-left: 40px;
+    text-align: center;    
+}
+
+.mapa{
+  width: 600px;
+  height:450px ;
+  border:0;  
+}
+
+
+@media screen and (max-width: 817px) {
+  .contenedor-contactos{
+    width: 100%;
+  }
+  .cont{
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.numero{
+  font-size: 6.5vw;
+  width: 98%;
+}
+.correo{
+    font-size: 5vw;
+    width: 98%;
+}
+
+}
+
+
+

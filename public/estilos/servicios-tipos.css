@@ -1,0 +1,63 @@
+
+body{
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo-generales{
+    margin: 50px 0 50px 0;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+#carouselExampleInterval{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descripcion-servicios{ 
+    width: 80%;   
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(60, 56, 56);
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.titulo-servicio{
+    color: black;
+    text-align: center;
+    margin: 50px auto 50px auto;
+    text-decoration: underline;
+}
+.lista{
+    color: black;
+    font-size: 1.5vw;
+    width: 70%;
+    margin: 70px auto 70px auto;   
+    font-size:20px; 
+}
+.items{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.carousel{
+    border: 5px solid rgb(60, 56, 56);
+}
+
+@media screen and (max-width: 700px) {
+    .lista{
+        color: black;
+        font-size:20px;
+        width: 90%;
+        margin: 70px auto 70px auto;    
+    }
+  }

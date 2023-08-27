@@ -1,0 +1,47 @@
+body{
+    background-color: red;
+}
+
+.formulario{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    background-color: rgb(54, 50, 50);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+form input{
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+form textarea{
+    width: 400px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+form label{
+    color: white;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    input[type="number"] {
+      -moz-appearance: textfield; /* Para Firefox */
+      appearance: textfield;
+    }
+
+.inpunt{
+    margin-top: 10px;
+}    

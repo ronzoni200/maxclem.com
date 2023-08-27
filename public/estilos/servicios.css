@@ -1,0 +1,94 @@
+body{
+    background-color: red;
+}
+
+.contenedor-servicio{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    background-color: red;
+}
+
+.contenedor-general{
+    width: 30%;
+    height: auto;
+    border: 3px solid rgb(80, 72, 72);;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-content: start;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    color: black;
+    background-color: white;
+    text-decoration: none
+}
+.icono-grua{
+    display: flex;
+    width: 50%;    
+    display: flex; 
+}
+.icono-especial{
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.icono-general{
+    display: flex;
+    width: 70%;    
+    display: flex;   
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.icono-contenedor{
+    display: flex;
+    width: 90%;    
+    display: flex;   
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.icono-terreno{
+    display: flex;
+    width: 80%;    
+    display: flex;   
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.titulo-cartas{
+    font-size: 2.5vw;
+}
+
+.contenedor-general p{
+    border-radius: 3px;
+    font-size: 18px;
+
+}
+.contenedor-general:hover{
+    box-shadow: 1px 1px 8px white;
+    cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+    .contenedor-servicio {
+      flex-direction: column;              
+    }
+    .contenedor-general{        
+        width: 90%;
+        flex-direction: column;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .titulo-cartas{
+        font-size: 6vw;
+    }
+   
+  }
